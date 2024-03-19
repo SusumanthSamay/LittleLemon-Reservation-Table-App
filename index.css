@@ -1,0 +1,36 @@
+:root {
+  --green: #495E57;
+  --yellow: #F4CE14;
+  --gray: #EDEFEE;
+  --darkgray: #322D2D;
+  --salmon: #EE9972;
+  --darksalmon: #ce5117;
+
+  --font-main: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 10px */
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100%;
+  font-family: var(--font-main);
+  color: var(--darkgray);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+}
